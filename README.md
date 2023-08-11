@@ -9,10 +9,12 @@ Algorithme de K-means entraˆın ́e sur 3 features (RFM: r ́ecence du dernier 
 Pour obtenir de meilleurs résultats en apprentissage non supervisé, on applique une technique appelée “l’auto-encodeur” qui fait intervenir un réseau de neurones artificiels. L’idée est d’apprendre une repr ́esentation (encodage) d’un ensemble de donn ́ees dans le but de réduire la dimension de cet ensemble.
 
 
-## 2 Utilisation
+## 3 Utilisation
 - git clone repo
+
+
 (optional- create tensorflow environment
-use tensorflow for mac M1
+use tensorflow for mac M1)
 - source ~/miniforge3/bin/activate
 - conda install -c apple tensorflow-deps
 - python -m pip uninstall tensorflow-macos
@@ -27,7 +29,8 @@ use tensorflow for mac M1
 - conda install tensorflow-macos
 - pip install tensorflow-macos
 - pip install tensorflow-metal
-)
+
+  
 - choose tensorflow environment
 - pip install -r requirements.txt
 - python3 app.py or python app.py
